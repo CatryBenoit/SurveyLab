@@ -79,29 +79,31 @@ Avoir Node.js et un cluster MongoDB (local ou Atlas) opérationnels.
 Déplacez-vous dans le dossier serveur, installez les dépendances et créez le fichier .env :
 
 Bash
+```
 cd server
 npm install
 touch .env
+```
 Dans le fichier .env, ajoutez les variables suivantes :
 
-Extrait de code
+Extrait de code```
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_super_secret_key
-Lancez le serveur en mode développement avec nodemon :
+Lancez le serveur en mode développement avec nodemon :```
 
-Bash
-npx nodemon index.js
+Bash```
+npx nodemon index.js```
 Le serveur doit afficher : ✅ Connecté à MongoDB et 🚀 Serveur lancé sur le port 5000.
 
 2. Configuration du Front-end
 Ouvrez un nouveau terminal, déplacez-vous dans le dossier client et installez les dépendances :
 
-Bash
+Bash```
 cd client
-npm install
+npm install```
 Lancez le serveur de développement Vite :
 
-Bash
-npm run dev
+Bash```
+npm run dev```
 L'application est accessible par défaut sur http://localhost:5173
