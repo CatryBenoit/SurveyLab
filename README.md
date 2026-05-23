@@ -1,3 +1,10 @@
+<!-- PORTFOLIO_CONFIG
+system: PERSO
+tech: React / Node.js / Express / SQLite / Chart.js
+desc: Plateforme web de création et d’analyse de sondages permettant de concevoir des formulaires interactifs, collecter des réponses en temps réel et visualiser les résultats via des statistiques et graphiques dynamiques.
+color: #f59e0b
+-->
+
 # 📊 SurveyLab - Plateforme d'Ultra-Sondages et Tier Lists
 
 SurveyLab est une application web moderne (SPA) permettant aux créateurs de concevoir des sondages hautement interactifs (Sliders, Tier Lists, Évaluations, Sélections de médias) et d'analyser les résultats des répondants grâce à un système de filtrage croisé en temps réel.
